@@ -1,66 +1,117 @@
 *{
-    margin:0;
+    /* border: red solid 0.1px; */
+}
+
+html{
     scroll-behavior: smooth;
 }
 
-body { 
-    min-height: 100vh; 
-    
-}
+body{
+    background: linear-gradient(90deg, #BB00C7 1.74%, #FF008A 18.27%, #FFC700 37.27%, #FFF 59.47%);
 
-@font-face {
-    font-family: Konnect;
-    src: url('../fonts/KonnectLight.otf');
 }
-
-.Inicial{
-    width: 100vw;
-    height:100vh;
-    background: linear-gradient(90deg, #BB00C7 1.74%, #FF008A 18.27%,  #FBD54A 37.27%, #FFF 59.47%);
-}
-
-.Logo{
-    position: absolute;
-    width: 17vw;
-    height: 10.5vh;
-    left: 2vw;
-    top: 3vh;
-    background: url(../img/LogoOrganizarty.png);
-}
-
-.Navbar{
-    position: relative;
+.logo{
     display: flex;
-    top: 46px;
+    width: 15vw;
+    display: flex;
+    margin-top: 0vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    margin-top: 4vh;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 4vh;
+    z-index:0;
+}
+
+#navbar{
+    /*Estilo*/
     font-family: Konnect;
-    color: var(--cinza);
-    left: 43%;    
-}
-
-.Navbar ul{
     list-style: none;
-}
 
-.Navbar ul li a{
-    justify-content: space-between;
-    padding: 0.5em;
-    text-decoration: none;
-}
-
-.Navbar ul li a:hover{
-    color: var(--cinza);
-    border: var(--cinza) solid thin;
-    border-radius: 40px;
-    transition-delay: 0.2s;
-}
-.Mascote{
-    position: absolute;
-    width: 42vw;
-    height: 87.4vh;
-    left: 6vw;
-    top: 11vh;
-}
-#Mascote{
+    /*Tamanho*/
     width: 100%;
-    height:100%;   
+
+    /*Alinhamento*/
+    display: flex;
+    justify-items: center;
+    margin-right: 22vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}    
+
+.itens{
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.itens:hover{
+    color: var(--rosa);
+    transition: all 0.4s;  
+}
+
+/* .item1{
+    box-sizing: border-box;
+    border: 2px solid var(--cinza);
+    border-radius: 40%;
+}
+
+.item1:hover{
+    border: 2px solid var(--rosa);
+}
+ */
+ .container{
+    display: flex;
+    justify-content: space-between;
+ }
+.mascote{
+    width:41vw; 
+    margin-left: 8vw;
+}
+
+#mascote{
+    width:100%;
+    height:100%;
+}
+
+.start{
+    text-align: right;
+    margin-right: 7vw;
+    font-family: Konnect;
+    color: var(--cinza2)
+}
+
+.txtStart{
+    font-family: KonnectBold;
+    font-size: 5vw;
+    margin-top: 20vh;
+    background: conic-gradient(from 81.92deg at 50% 50%, #FBD54A -28.12deg, #98308C 22.5deg, #EF5781 172.5deg, #FBD54A 331.88deg, #98308C 382.5deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.btnStart{
+    width: 15vw;
+    height: 8vh;
+    border-radius: 10px;
+    background-color: var(--transparente);
+    border: var(--cinza3) solid 2px; 
+    color: var(--cinza3);
+    font-size: 2vw;
+    font-family: Inter;
+    font-weight: light;
+}
+
+.btnStart:hover{
+    background: conic-gradient(from 81.92deg at 50% 50%, #FBD54A -28.12deg, #98308C 22.5deg, #EF5781 172.5deg, #FBD54A 331.88deg, #98308C 382.5deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border: var(--cinza3) solid 2px; /*border: var(--cinza2) solid 2px;*/ /* <-- Não sei qual escolher*/
+    transition: all 0.4s; 
 }
