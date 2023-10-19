@@ -1,15 +1,26 @@
 *{
-    /* border: red solid 0.1px; */
+    border: red solid 0.1px;
 }
 
-html{
+body, html {
+    height:100%;
     scroll-behavior: smooth;
+  }
+section{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
 }
+  .inicial{
+    background-image: url(../img/Gradiente\ pq\ n\ da\ pra\ pegar\ a\ imagem\ do\ debaixo.png);
+  }
+  #about{
+    background-image: url(../img/pagina2.png);
 
-body{
-    background: linear-gradient(90deg, #BB00C7 1.74%, #FF008A 18.27%, #FFC700 37.27%, #FFF 59.47%);
+  }
 
-}
 .logo{
     display: flex;
     width: 15vw;
@@ -39,14 +50,15 @@ body{
     justify-items: center;
     margin-right: 22vw;
     display:flex;
-    align-items: center;
     justify-content: center;
+    position: fixed;
+    margin-top: 5vh;
 }    
 
 .itens{
     padding: 10px;
     text-decoration: none;
-    color: var(--cinza);
+    color: var(--branco);
 }
 
 .itens:hover{
@@ -69,8 +81,10 @@ body{
     justify-content: space-between;
  }
 .mascote{
-    width:41vw; 
+    width:42vw; 
     margin-left: 8vw;
+    display: flex;
+    align-items: flex-end;
 }
 
 #mascote{
@@ -81,13 +95,14 @@ body{
 .start{
     text-align: right;
     margin-right: 7vw;
+    font-size: 1.57vw;
     font-family: Konnect;
     color: var(--cinza2)
 }
 
 .txtStart{
     font-family: KonnectBold;
-    font-size: 5vw;
+    font-size: 6.5vw;
     margin-top: 20vh;
     background: conic-gradient(from 81.92deg at 50% 50%, #FBD54A -28.12deg, #98308C 22.5deg, #EF5781 172.5deg, #FBD54A 331.88deg, #98308C 382.5deg);
     -webkit-background-clip: text;
@@ -98,6 +113,7 @@ body{
 .btnStart{
     width: 15vw;
     height: 8vh;
+    margin-top: 10vh;
     border-radius: 10px;
     background-color: var(--transparente);
     border: var(--cinza3) solid 2px; 
@@ -114,4 +130,44 @@ body{
     background-clip: text;
     border: var(--cinza3) solid 2px; /*border: var(--cinza2) solid 2px;*/ /* <-- Não sei qual escolher*/
     transition: all 0.4s; 
+    cursor:pointer;
+}
+
+/*Section 2*/
+.conteudo{
+    /* border: red solid 0.1px; */
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  
+    color:var(--branco);
+    width: 40vw;
+    margin-left: 30vw;
+     /* border: red solid 0.1px; */
+}
+
+#sobreNos{
+    /* border: red solid 0.1px; */
+    margin-bottom: 5vh;
+    font-family: KonnectBold;
+}
+
+#titulo{
+    /* border: red solid 0.1px; */
+    margin-bottom: 2vh;
+    font-family: KonnectBold;
+    font-size: 3vw;
+
+}
+
+#texto{
+    font-size:1.3vw;
+    text-align: justify;
+    font-family: Konnect;
+    /* border: red solid 0.1px; */
 }
