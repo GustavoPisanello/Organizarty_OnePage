@@ -1,0 +1,26 @@
+#boyOrGirl{
+    background-image: url(../img/Boy\ or\ Girl.png);
+}
+.container3{
+    width: 100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 h1{
+    position: relative;
+    font-family: KonnectBold;
+    color: var(--branco);
+    font-size: 11vw;
+    z-index:0;
+    margin-right:2vw;
+}
+
+#urso{
+    /* border: red dashed 1px; */
+    position: absolute;
+    width: 40vw;
+    z-index:1;
+}

@@ -5,21 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Organizarty - A arte de fazer festa</title>
   <link rel="stylesheet" href="css/reset.css"/>
-  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/inicial.css"/>
   <link rel="stylesheet" href="css/about.css"/>
   <link rel="stylesheet" href="css/root.css"/>
+  <link rel="stylesheet" href="css/boyOrGirl.css"/>
   <link rel="icon" href="img/Icone.png"/>
 </head>
 <body>
-    <section class="inicial">
+    <section id="inicial">
     <header>
       <div class="navbar">  
         <a href="#"><img class="logo" src="img/Logo.png"/></a>
           <ul id="navbar">
             <li>
-              <a class="itens item1" href="#">Home</a>
-              <a class="itens" href="#about">About</a>
-              <a class="itens" href="#">Events</a>
+              <a class="itens" data-changeColor="white" href="#">Home</a>
+              <a class="itens" data-changeColor="white" href="#about">About</a>
+              <a class="itens" data-changeColor="white" href="#boyOrGirl">Events</a>
             </li>
           </ul>
         </div>
@@ -56,30 +57,13 @@
       </div>
     </section>
 
-    <section class="boyOrGirl">
-
-      <div class="baloesEsquerda">
-
+    <section id="boyOrGirl">
+      <div class="container3">
+          <img id="urso" src="img/ursinho.png">
+          <h1>Boy or Girl</h1>
+          
       </div>
-      <div class="bolinhasEsquerda">
-
-      </div>
-      <div class="textoCentral">
-        <h2>Boy or Girl</h2>
-      </div>
-      <div class="ursinho">
-
-      </div>
-
-      <div class="baloesDireita">
-        
-      </div>
-      <div class="bolinhasDireita">
-
-      </div>
-
-      
     </section>
-
+<script type ="text/javascript" src="js/script.js"></script>
 </body>
 </html>

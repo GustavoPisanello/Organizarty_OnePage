@@ -5,6 +5,11 @@
     align-items: center;
     justify-content: center;
 }
+#about{
+    height: 100vh;
+    background-image: url(../img/pagina2.png);
+      
+}
 .container2{
     display: flex;
     flex-direction: column;
@@ -33,5 +38,6 @@
     font-size:1.3vw;
     text-align: justify;
     font-family: Konnect;
+    line-height: 4vh;
     /* border: red solid 0.1px; */
 }
