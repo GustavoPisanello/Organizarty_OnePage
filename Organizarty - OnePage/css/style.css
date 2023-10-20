@@ -13,19 +13,24 @@ section{
     background-size: cover;
     min-height: 100%;
 }
+
   .inicial{
     background-image: url(../img/Gradiente\ pq\ n\ da\ pra\ pegar\ a\ imagem\ do\ debaixo.png);
   }
+
   #about{
     background-image: url(../img/pagina2.png);
+  }
 
+  .boyOrGirl{
+      background-color: var(--lilas);
   }
 
 .logo{
     display: flex;
     width: 15vw;
+    height:9vh;
     display: flex;
-    margin-top: 0vh;
     margin-left: 4vh;
     margin-right: 4vh;
     margin-top: 4vh;
@@ -58,7 +63,7 @@ section{
 .itens{
     padding: 10px;
     text-decoration: none;
-    color: var(--branco);
+    color: var(--cinza);
 }
 
 .itens:hover{
@@ -79,7 +84,9 @@ section{
  .container{
     display: flex;
     justify-content: space-between;
+    height:91vh;
  }
+
 .mascote{
     width:42vw; 
     margin-left: 8vw;
@@ -131,43 +138,4 @@ section{
     border: var(--cinza3) solid 2px; /*border: var(--cinza2) solid 2px;*/ /* <-- Não sei qual escolher*/
     transition: all 0.4s; 
     cursor:pointer;
-}
-
-/*Section 2*/
-.conteudo{
-    /* border: red solid 0.1px; */
-    height:100vh;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-.container2{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;  
-    color:var(--branco);
-    width: 40vw;
-    margin-left: 30vw;
-     /* border: red solid 0.1px; */
-}
-
-#sobreNos{
-    /* border: red solid 0.1px; */
-    margin-bottom: 5vh;
-    font-family: KonnectBold;
-}
-
-#titulo{
-    /* border: red solid 0.1px; */
-    margin-bottom: 2vh;
-    font-family: KonnectBold;
-    font-size: 3vw;
-
-}
-
-#texto{
-    font-size:1.3vw;
-    text-align: justify;
-    font-family: Konnect;
-    /* border: red solid 0.1px; */
 }
