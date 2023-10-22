@@ -2,6 +2,7 @@
 
 Possivel solução
 
+```
 function Animacao(){
 if (){
   (codigo da animação)
@@ -10,3 +11,4 @@ if (){
 }
 
 Animacao()
+```
