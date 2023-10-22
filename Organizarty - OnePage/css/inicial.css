@@ -47,6 +47,7 @@ section{
     justify-content: center;
     position: fixed;
     margin-top: 5vh;
+    z-index: 6;
 }   
 
 .itens{
@@ -133,4 +134,8 @@ section{
     border: var(--cinza3) solid 2px; /*border: var(--cinza2) solid 2px;*/ /* <-- Não sei qual escolher*/
     transition: all 0.4s; 
     cursor:pointer;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }

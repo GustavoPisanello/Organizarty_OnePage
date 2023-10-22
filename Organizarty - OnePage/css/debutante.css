@@ -27,3 +27,8 @@
         cursor: pointer;
         border: var(--transparente) solid 1px;
 }
+.botao3:hover{
+    color: var(--branco);
+    background-color: var(--roxoEscuro);
+    transition: all 0.4s;
+}

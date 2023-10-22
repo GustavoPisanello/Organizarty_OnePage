@@ -21,3 +21,23 @@ navBarChangeColor();
 window.addEventListener("scroll", () => {
     navBarChangeColor();
 })
+
+
+let cont = document.querySelector('#Events');
+let layer = document.querySelectorAll('.txtEvents');
+
+function AnimacaoTela1(){
+    cont.onscroll = function(){
+        let X = cont.scrollTop;
+        console.log("scroll lado: " + cont.scrollTop);
+        layer[0].style.left = X/4 + 'px';
+        layer[1].style.left = X/ + 'px';
+        layer[2].style.left = X/ + 'px';
+        layer[3].style.left = X/ + 'px';
+        layer[4].style.left = X/ + 'px';
+}
+}
+
+AnimacaoTela1();
+
+

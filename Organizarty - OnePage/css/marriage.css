@@ -3,8 +3,8 @@
     height:100vh;
     overflow-y: auto;
     overflow-x: hidden;
-    background-image: url(../img/Married_Redimensionado.png);
-    background-repeat: no-repeat;
+    background-image: url(../img/Married.png);
+    background-size: cover;
     background-color: var(--marromFundo);
 }
 
@@ -28,4 +28,10 @@
         border-radius: 20px;
         cursor: pointer;
         border: var(--transparente) solid 1px;
+}
+
+.botao2:hover{
+    color: var(--branco);
+    background-color: var(--marrom);
+    transition: all 0.4s;
 }

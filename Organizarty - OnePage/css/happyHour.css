@@ -2,9 +2,8 @@
     width: 100vw;
     height:100vh;
     overflow-y: hidden;
-    background-image: url(../img/Happy\ hour_Redimensionado.png);
-    background-repeat: no-repeat;
-    /* background: linear-gradient(180deg, #00A2E8 0%, #12ED49 100%); */
+    background-image: url(../img/Happy\ hour.png);
+    background-size: cover;
 }
 
 .happyHour h1{
@@ -27,4 +26,9 @@
         border-radius: 20px;
         cursor: pointer;
         border: var(--transparente) solid 1px;
+}
+.botao4:hover{
+    color: var(--branco);
+    background-color: var(--laranja);
+    transition: all 0.4s;
 }

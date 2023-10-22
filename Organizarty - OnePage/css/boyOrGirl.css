@@ -1,14 +1,8 @@
-#Events{
-    width: 500%;
-    display: flex;
-}
-
 .boyOrGirl{
     width: 100vw;
     height:100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    background-image: url(../img/Boy\ or\ Girl_Redimensionado.png);
+    background-image: url(../img/Boy\ or\ Girl.png);
+    background-size: cover;
 }
 
 .boyOrGirl h1{
@@ -50,6 +44,12 @@
     border-radius: 20px;
     cursor: pointer;
     border: var(--transparente) solid 1px;
+}
+
+.botao1:hover{
+    color: var(--branco);
+    background-color: var(--roxoEscuro);
+    transition: all 0.4s;
 }
 
 .botaoPosicionado{
