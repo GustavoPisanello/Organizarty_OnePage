@@ -13,13 +13,12 @@ section{
 }
 
   #inicial{
-    background-image: url(../img/Gradiente\ pq\ n\ da\ pra\ pegar\ a\ imagem\ do\ debaixo.png); 
+    background-image: url(../img/Inicial/Gradiente\ pq\ n\ da\ pra\ pegar\ a\ imagem\ do\ debaixo.png); 
   }
 
 .logo{
     display: flex;
     width: 15vw;
-    height:9vh;
     display: flex;
     margin-left: 4vh;
     margin-right: 4vh;
@@ -57,9 +56,15 @@ section{
 
 }
 
+.itens #home{
+    
+}
+
 .itens:hover{
     color: var(--rosa);
     transition: all 0.4s;  
+    border-radius: 30px;
+    border: solid white 1px;
 }
 
 [data-changeColor]{
@@ -76,6 +81,7 @@ section{
 
 [data-changeColor].animate:hover{
     color: var(--rosa);
+    background-color: #FFF;
 }
 
  .container{
@@ -92,7 +98,6 @@ section{
 
 #mascote{
     width:100%;
-    height:100%;
 }
 
 .start{

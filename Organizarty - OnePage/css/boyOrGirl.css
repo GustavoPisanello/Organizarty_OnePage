@@ -1,7 +1,7 @@
 .boyOrGirl{
     width: 100vw;
     height:100vh;
-    background-image: url(../img/Boy\ or\ Girl.png);
+    background-color: var(--lilas);
     background-size: cover;
 }
 
@@ -16,12 +16,26 @@
     padding-right: 2vw;
 }
 
-#urso{
+.imgEvents{
     position: absolute;
     width: 35vw;
     z-index:1;
     /* border: black solid; */
     align-self: flex-end;
+}
+
+#baloes{
+    position: absolute;
+    align-self: center;
+
+    height: 80vh;
+}
+
+#bolas{
+    position: absolute;
+    align-self: center;
+
+    height: 80vh;
 }
 
 .principal{

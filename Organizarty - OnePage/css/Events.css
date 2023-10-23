@@ -14,3 +14,11 @@
     transform: rotate(90deg) translateY(-100vh);
 
 }
+
+.inversaoImg{
+    z-index: 0;
+}
+
+.inversaoTexto{
+    z-index: 1;
+}

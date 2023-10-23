@@ -3,7 +3,7 @@
     height:100vh;
     overflow-y: auto;
     overflow-x: hidden;
-    background-image: url(../img/Married.png);
+    background-image: url(../img/Wedding/Married.png);
     background-size: cover;
     background-color: var(--marromFundo);
 }

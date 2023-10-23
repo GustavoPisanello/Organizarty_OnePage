@@ -14,25 +14,25 @@
   <link rel="stylesheet" href="css/happyHour.css"/>
   <link rel="stylesheet" href="css/happyBirthdayToYou.css"/>
   <link rel="stylesheet" href="css/Events.css"/>
-  <link rel="icon" href="img/Icone.png"/>
+  <link rel="icon" href="img/Inicial/Icone.png"/>
 </head>
 <body>
     <section id="inicial">
     <header>
       <div class="navbar">  
-        <a href="#"><img class="logo" src="img/Logo.png"/></a>
+        <a href="#inicial"><img class="logo" src="img/Inicial/Logo.png"/></a>
           <ul id="navbar">
             <li>
-              <a class="itens" data-changeColor="white" href="#">Home</a>
+              <a class="itens" id="home" data-changeColor="white" href="#inicial">Home</a>
               <a class="itens" data-changeColor="white" href="#about">About</a>
-              <a class="itens" data-changeColor="white" href="#Events">Events</a>
+              <a class="itens" id="events" data-changeColor="white" href="#Events">Events</a>
             </li>
           </ul>
         </div>
     </header>
     <div class="container">
       <div class="mascote">
-        <img id="mascote" src="img/MacaquinhoMascote.png"/>
+        <img id="mascote" src="img/Inicial/MacaquinhoMascote.png"/>
       </div>
       <div class="start">
         <h2 class="txtStart">START YOUR <br> PARTY</h2>
@@ -68,8 +68,10 @@
       <!-- Evento 1 -->
       <div class="boyOrGirl">
         <div class="principal">
-          <img id="urso" src="img/ursinho.png">
-          <h1 class="txtEvents" >Boy or Girl</h1>
+          <img class="imgEvents" src="img/BoyOrGirl/ursinho.png">
+          <img id="baloes" src="img/BoyOrGirl/baloes.png">
+          <img id="bolas" src="img/BoyOrGirl/Bolas.png">
+          <h1 class="txtEvents">Boy or Girl</h1>
           </div>
           <div class="botaoPosicionado">
           <button class="botao1" type="button">Start Party</button>
@@ -79,8 +81,8 @@
       <!-- Evento 2 -->
       <div class="marriage">
         <div class="principal">
-          <img id="urso" src="img/Casal.png">
-          <h1 class="txtEvents" >Married</h1>
+          <img class="imgEvents" src="img/Wedding/Casal.png">
+          <h1 class="txtEvents" >Wedding</h1>
           </div>
           <div class="botaoPosicionado">
           <button class="botao2" type="button">Start Party</button>
@@ -90,7 +92,7 @@
       <!-- Evento 3 -->
       <div class="debutante">
         <div class="principal">
-          <img id="urso" src="img/Debutante.png">
+          <img class="imgEvents" src="img/Debutante/Debutante.png">
           <h1 class="txtEvents" >Once upon a Time</h1>
         </div>
           <div class="botaoPosicionado">
@@ -101,7 +103,7 @@
       <!-- Evento 4 -->
       <div class="happyHour">
         <div class="principal">
-          <img id="urso" src="img/Drink.png">
+          <img class="imgEvents" src="img/HoraFeliz/Drink.png">
           <h1 class="txtEvents" >Happy Hour</h1>
         </div>
           <div class="botaoPosicionado">
@@ -112,16 +114,14 @@
       <!-- Evento 5* -->
       <div class="aniversario">
         <div class="principal bday">
-          <img id="urso" src="img/Bolo.png">
+          <img class="imgEvents" src="img/HappyBirthday/Bolo.png">
           <h1 class="txtEvents">Happy Birthday<br> <strong>.</strong> To <strong>........</strong>You</h1>
         </div>
           <div class="botaoPosicionado">
           <button class="botao5" type="button">Start Party</button>
           </div>
       </div>
-
       </div>
-     
   </div>
 
 <script type ="text/javascript" src="js/script.js"></script>
